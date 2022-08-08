@@ -6,6 +6,7 @@ import Exercises from "./components/Exercises";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Pagination from "./components/Pagination";
+import Navigation from "./Navigation/Navigation";
 
 const App = () => {
   const [items, setItems] = useState([]);
@@ -57,6 +58,7 @@ const App = () => {
 
   return (
     <div>
+      <Navigation />
       <Navbar handleChange={handleChange} />
       <Exercises items={currentItems} loading={loading} />
       <Pagination

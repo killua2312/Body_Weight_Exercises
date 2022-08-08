@@ -1,0 +1,22 @@
+.navigation {
+    position: fixed;
+    /* background-color: blueviolet; */
+    height: 50vh;
+    bottom: 30vh;
+    width: 3rem;
+    left: 10px;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+}
+
+.nav__container {
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav__container a {
+    color: whitesmoke;
+}

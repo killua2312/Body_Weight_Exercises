@@ -18,11 +18,7 @@ const App = () => {
   useEffect(() => {
     const options = {
       method: "GET",
-      url: "https://exercisedb.p.rapidapi.com/exercises/equipment/body%20weight",
-      headers: {
-        "X-RapidAPI-Key": "7a083754d4msh502bfee4838b73cp1fe6edjsn4efc8701238e",
-        "X-RapidAPI-Host": "exercisedb.p.rapidapi.com",
-      },
+      url: "https://bwapi.lifeinloop.in/api/bodyweight",
     };
 
     const fetchItems = async () => {
